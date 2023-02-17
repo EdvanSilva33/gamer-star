@@ -111,4 +111,7 @@ footer{
         
        
     }
+    #contato{
+        z-index: 1000;
+    }
 }
