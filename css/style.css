@@ -33,6 +33,11 @@ section{
     
     
 }
+.carousel-caption{
+   left: 0;
+   padding: 16px;
+    width: 100%;
+}
 .navbar-nav .nav-link.active{
     border-color:  red;
     color:rgb(250, 250, 250);
