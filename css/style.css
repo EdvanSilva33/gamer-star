@@ -1,0 +1,114 @@
+/***estilizando o menu principal*/
+html, body{
+    background-color: #eae7e7;
+}
+header{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    
+   
+}
+section{
+    padding-top: 110px;
+ 
+    
+   
+}
+
+#myCarousel .carousel-inner{
+    height: 250px;
+    
+}
+.carousel-item img{
+    object-fit: cover;
+    height: 100%;
+    
+}
+.navbar-nav .nav-link{
+    border-top: 2px solid transparent;
+    padding: 5px;
+    font-size: 1.2rem;
+    
+    
+}
+.navbar-nav .nav-link.active{
+    border-color:  red;
+    color:rgb(250, 250, 250);
+    font-weight: 600;
+   
+}
+.card{
+    margin-bottom: 50px;
+}
+.mensagem-error{
+    color:red;
+    position: absolute;
+    top: 35px;
+    left: 10px;
+
+}
+.box-mensagem{
+    resize: none;
+    max-width: 500px;
+    height: 200px;
+    
+}
+#form{
+    position: relative;
+    padding: 16px;
+    max-width: 500px;
+    height: 600px;
+}
+.input-group{
+    margin-bottom: 20px;
+}
+footer{
+    background-color: aqua;
+    padding:30px 16px ;
+    min-height: 120px;
+    text-align: center;
+    font-size: 22px;
+    color: #565454;
+   
+}
+@media screen and (min-width:410px) and (max-width:1023px) {
+ #quem .picture{
+    display: none;
+ }
+}
+
+@media screen and (max-width:400px){
+    .clear{
+        display: none;
+        margin: 0;
+    }
+    .imagen-statick{
+        background-image: url("../img/xbox.jpg");
+        background-size: contain;
+        width: 100%;
+        max-width: 370px;
+        margin: 0 auto;
+        height: 250px ;
+        border:  inset 5px #fff;
+    }
+    #promocao .container{
+        margin-top: -150px;
+    }
+  
+    .picture{
+       display: none;
+    }
+    .mobile-align{
+        text-align: center;
+    }
+    .lengads{
+        margin: 0 auto;
+        display: flex;
+        max-width: 370px;
+        flex-direction: column;
+        
+       
+    }
+}
