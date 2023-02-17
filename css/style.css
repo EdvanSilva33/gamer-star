@@ -106,9 +106,7 @@ footer{
     .picture{
        display: none;
     }
-    .mobile-align{
-        text-align: center;
-    }
+ 
     .lengads{
         margin: 0 auto;
         display: flex;
